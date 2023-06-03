@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Bookmark Logger",
+    "description": "Logs bookmarks to a file",
+    "version": "1.0",
+    "permissions": [
+      "webNavigation",
+      "tabs",
+      "bookmarks",
+      "downloads"
+    ],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    }
+  }
+  
